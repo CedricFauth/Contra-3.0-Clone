@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1440
     height: 773
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Git for Unity
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -45,9 +45,9 @@ MonoBehaviour:
     height: 191
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &3
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 300}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 60
+  controlID: 117
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 18}
+  - {fileID: 17}
   - {fileID: 13}
   m_Selected: 1
   m_LastSelected: 0
@@ -123,9 +123,9 @@ MonoBehaviour:
     height: 351
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &6
@@ -149,10 +149,10 @@ MonoBehaviour:
     height: 181
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 22}
+  - {fileID: 16}
+  - {fileID: 21}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &7
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 300}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 1
-  controlID: 61
+  controlID: 19
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 62
+  controlID: 20
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AssetStoreWindow
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -296,16 +296,15 @@ MonoBehaviour:
     y: 0
     width: 826
     height: 351
-  m_MinSize: {x: 457, y: 375}
+  m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 20}
   m_Panes:
+  - {fileID: 19}
   - {fileID: 20}
-  - {fileID: 21}
-  - {fileID: 16}
-  - {fileID: 14}
-  m_Selected: 3
-  m_LastSelected: 1
+  - {fileID: 15}
+  m_Selected: 1
+  m_LastSelected: 2
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -342,8 +341,8 @@ MonoBehaviour:
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 0
-  changeTab: 3
-  activeTab: 3
+  changeTab: 5
+  activeTab: 5
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -443,10 +442,10 @@ MonoBehaviour:
         treeIsCheckable: 0
         checkState: 0
       selectedNode:
-        path: 
-        label: 
+        path: Remote branches
+        label: Remote branches
         level: 0
-        isFolder: 0
+        isFolder: 1
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
@@ -459,10 +458,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2022-12-27T13:52:50.959+01:00
+      updatedTimeString: 2022-12-27T14:41:09.953+01:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2022-12-27T13:52:35.948+01:00
+      updatedTimeString: 2022-12-27T14:38:11.291+01:00
       cacheType: 1
     currentBranch:
       name: main
@@ -486,965 +485,14 @@ MonoBehaviour:
     commitBody: 
     commitMessage: 
     currentBranch: main
-    treeScroll: {x: 0, y: 633.0038}
+    treeScroll: {x: 0, y: 1057.0001}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - cb1dd0bac2b521a4b8f26f0759039a16
-        - 2cda990e2423bbf4892e6590ba056729
-        - 85d9ee68ef6a07e43827f24cc5f4a649
-        - 4946b66bb6cf00240b114413738b530b
-        - c8e30375d8260844c9ae8b3d02da7d82
-        - 424a2aab23327be49aabc0f27a6332a8
-        - 9123db0ed3ab57e40a878922ad9b909a
-        - 026b3f3f190b1b449a3df8ccb22028fd
-        - 1197d4a9f05824f49a791c8eac4aa38c
-        - 7cc6df46824437648b5b9a06ff8a1409
-        - a1547446916441541b7b7306a29d4079
-        - c207e4e40111d8147983108ccc485f87
-        - 5ade6ca762d61994985ac16bae054e2b
-        - 77e0ddc7a1fc2844fbb5739ef7e57e50
-        - a428449c3a6aedf44b3c8abd09c943a4
-        - 9e00e9c3db803d145ac6288d5541aaa2
-        - 89838adab248057429cedc9799f74a48
-        - 9ed104e0016ccd345a7dcda59b86e8f6
-        - cf7d361f3c746e3449bc925f674d5dc2
-        - c95a351cbae832c4fabccb54ced746a0
-        - 00000000000000006000000000000000
-        - 00000000000000007100000000000000
-        - 00000000000000008000000000000000
-        - 0000000000000000b000000000000000
-        - 0000000000000000c000000000000000
-        - 00000000000000006100000000000000
-        - 00000000000000002000000000000000
-        - 0000000000000000f100000000000000
-        - 00000000000000004100000000000000
-        - 00000000000000005100000000000000
-        - 0000000000000000b100000000000000
-        - 00000000000000004000000000000000
-        - 0000000000000000e100000000000000
-        - 00000000000000009000000000000000
-        - 00000000000000003000000000000000
-        - 00000000000000007000000000000000
-        - 0000000000000000a100000000000000
-        - 0000000000000000d100000000000000
-        - 0000000000000000c100000000000000
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Levels
-          label: Levels
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Levels/Level 1.unity
-          label: Level 1.unity
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Levels/Level 1.unity
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Levels/Level
-              1.unity
-            projectPath: Assets/Levels/Level 1.unity
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Scripts/Bullet.cs
-          label: Bullet.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Scripts/Bullet.cs
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/Bullet.cs
-            projectPath: Assets/Scripts/Bullet.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Scripts/CameraMovement.cs
-          label: CameraMovement.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Scripts/CameraMovement.cs
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/CameraMovement.cs
-            projectPath: Assets/Scripts/CameraMovement.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Scripts/DroneMovement.cs
-          label: DroneMovement.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Scripts/DroneMovement.cs
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/DroneMovement.cs
-            projectPath: Assets/Scripts/DroneMovement.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Scripts/GunMovement.cs
-          label: GunMovement.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Scripts/GunMovement.cs
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/GunMovement.cs
-            projectPath: Assets/Scripts/GunMovement.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Scripts/moveBullet.cs
-          label: moveBullet.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Scripts/moveBullet.cs
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/moveBullet.cs
-            projectPath: Assets/Scripts/moveBullet.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Scripts/PlayerAim.cs
-          label: PlayerAim.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Scripts/PlayerAim.cs
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerAim.cs
-            projectPath: Assets/Scripts/PlayerAim.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Scripts/PlayerMovement.cs
-          label: PlayerMovement.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Scripts/PlayerMovement.cs
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerMovement.cs
-            projectPath: Assets/Scripts/PlayerMovement.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Scripts/PlayerProperties.cs
-          label: PlayerProperties.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Scripts/PlayerProperties.cs
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerProperties.cs
-            projectPath: Assets/Scripts/PlayerProperties.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Scripts/PlayerShootProjectiles.cs
-          label: PlayerShootProjectiles.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Scripts/PlayerShootProjectiles.cs
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerShootProjectiles.cs
-            projectPath: Assets/Scripts/PlayerShootProjectiles.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Scripts/ShootBehaviour.cs
-          label: ShootBehaviour.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Scripts/ShootBehaviour.cs
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/ShootBehaviour.cs
-            projectPath: Assets/Scripts/ShootBehaviour.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Sprites
-          label: Sprites
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Sprites/Animations
-          label: Animations
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Sprites/Animations/idle.anim
-          label: idle.anim
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Sprites/Animations/idle.anim
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/idle.anim
-            projectPath: Assets/Sprites/Animations/idle.anim
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Sprites/Animations/jumping.anim
-          label: jumping.anim
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Sprites/Animations/jumping.anim
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/jumping.anim
-            projectPath: Assets/Sprites/Animations/jumping.anim
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Sprites/Animations/Player.controller
-          label: Player.controller
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Sprites/Animations/Player.controller
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/Player.controller
-            projectPath: Assets/Sprites/Animations/Player.controller
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Sprites/Animations/running_forward.anim
-          label: running_forward.anim
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Sprites/Animations/running_forward.anim
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/running_forward.anim
-            projectPath: Assets/Sprites/Animations/running_forward.anim
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Sprites/R.png
-          label: R.png
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Sprites/R.png
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/R.png
-            projectPath: Assets/Sprites/R.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/AudioManager.asset
-          label: AudioManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/AudioManager.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/AudioManager.asset
-            projectPath: ProjectSettings/AudioManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/ClusterInputManager.asset
-          label: ClusterInputManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/ClusterInputManager.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/ClusterInputManager.asset
-            projectPath: ProjectSettings/ClusterInputManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/DynamicsManager.asset
-          label: DynamicsManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/DynamicsManager.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/DynamicsManager.asset
-            projectPath: ProjectSettings/DynamicsManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/EditorBuildSettings.asset
-          label: EditorBuildSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/EditorBuildSettings.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/EditorBuildSettings.asset
-            projectPath: ProjectSettings/EditorBuildSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/EditorSettings.asset
-          label: EditorSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/EditorSettings.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/EditorSettings.asset
-            projectPath: ProjectSettings/EditorSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/GraphicsSettings.asset
-          label: GraphicsSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/GraphicsSettings.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/GraphicsSettings.asset
-            projectPath: ProjectSettings/GraphicsSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/InputManager.asset
-          label: InputManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/InputManager.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/InputManager.asset
-            projectPath: ProjectSettings/InputManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/MemorySettings.asset
-          label: MemorySettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/MemorySettings.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/MemorySettings.asset
-            projectPath: ProjectSettings/MemorySettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/NavMeshAreas.asset
-          label: NavMeshAreas.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/NavMeshAreas.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/NavMeshAreas.asset
-            projectPath: ProjectSettings/NavMeshAreas.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/Physics2DSettings.asset
-          label: Physics2DSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/Physics2DSettings.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/Physics2DSettings.asset
-            projectPath: ProjectSettings/Physics2DSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/PresetManager.asset
-          label: PresetManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/PresetManager.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/PresetManager.asset
-            projectPath: ProjectSettings/PresetManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/ProjectSettings.asset
-          label: ProjectSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/ProjectSettings.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/ProjectSettings.asset
-            projectPath: ProjectSettings/ProjectSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/ProjectVersion.txt
-          label: ProjectVersion.txt
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/ProjectVersion.txt
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/ProjectVersion.txt
-            projectPath: ProjectSettings/ProjectVersion.txt
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/QualitySettings.asset
-          label: QualitySettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/QualitySettings.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/QualitySettings.asset
-            projectPath: ProjectSettings/QualitySettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/TagManager.asset
-          label: TagManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/TagManager.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/TagManager.asset
-            projectPath: ProjectSettings/TagManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/TimeManager.asset
-          label: TimeManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/TimeManager.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/TimeManager.asset
-            projectPath: ProjectSettings/TimeManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/UnityConnectSettings.asset
-          label: UnityConnectSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/UnityConnectSettings.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/UnityConnectSettings.asset
-            projectPath: ProjectSettings/UnityConnectSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/VersionControlSettings.asset
-          label: VersionControlSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/VersionControlSettings.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/VersionControlSettings.asset
-            projectPath: ProjectSettings/VersionControlSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings/VFXManager.asset
-          label: VFXManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings/VFXManager.asset
-            fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/VFXManager.asset
-            projectPath: ProjectSettings/VFXManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
+        keys: []
+        values: []
       folders:
-        keys:
-        - .vscode
-        - Assets
-        - Assets/Levels
-        - Assets/Scripts
-        - Assets/Sprites
-        - Assets/Sprites/Animations
-        - Packages
-        - ProjectSettings
-        - UserSettings
-        - UserSettings/Layouts
-        values:
-        - path: .vscode
-          label: .vscode
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Levels
-          label: Levels
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Sprites
-          label: Sprites
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Sprites/Animations
-          label: Animations
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Packages
-          label: Packages
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings/Layouts
-          label: Layouts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -1473,1484 +521,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: .vscode
-        label: .vscode
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vscode/settings.json
-        label: settings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vscode/settings.json
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/.vscode/settings.json
-          projectPath: .vscode/settings.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: .vsconfig
-        label: .vsconfig
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vsconfig
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/.vsconfig
-          projectPath: .vsconfig
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Levels.meta
-        label: Levels.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Levels.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Levels.meta
-          projectPath: Assets/Levels.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Levels
-        label: Levels
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Levels/Level 1.unity
-        label: Level 1.unity
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Levels/Level 1.unity
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Levels/Level
-            1.unity
-          projectPath: Assets/Levels/Level 1.unity
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Levels/Level 1.unity.meta
-        label: Level 1.unity.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Levels/Level 1.unity.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Levels/Level
-            1.unity.meta
-          projectPath: Assets/Levels/Level 1.unity.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts.meta
-        label: Scripts.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts.meta
-          projectPath: Assets/Scripts.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts
-        label: Scripts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Scripts/Bullet.cs
-        label: Bullet.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/Bullet.cs
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/Bullet.cs
-          projectPath: Assets/Scripts/Bullet.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/Bullet.cs.meta
-        label: Bullet.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/Bullet.cs.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/Bullet.cs.meta
-          projectPath: Assets/Scripts/Bullet.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/CameraMovement.cs
-        label: CameraMovement.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/CameraMovement.cs
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/CameraMovement.cs
-          projectPath: Assets/Scripts/CameraMovement.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/CameraMovement.cs.meta
-        label: CameraMovement.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/CameraMovement.cs.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/CameraMovement.cs.meta
-          projectPath: Assets/Scripts/CameraMovement.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/DroneMovement.cs
-        label: DroneMovement.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/DroneMovement.cs
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/DroneMovement.cs
-          projectPath: Assets/Scripts/DroneMovement.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/DroneMovement.cs.meta
-        label: DroneMovement.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/DroneMovement.cs.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/DroneMovement.cs.meta
-          projectPath: Assets/Scripts/DroneMovement.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/GunMovement.cs
-        label: GunMovement.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/GunMovement.cs
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/GunMovement.cs
-          projectPath: Assets/Scripts/GunMovement.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/GunMovement.cs.meta
-        label: GunMovement.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/GunMovement.cs.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/GunMovement.cs.meta
-          projectPath: Assets/Scripts/GunMovement.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/moveBullet.cs
-        label: moveBullet.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/moveBullet.cs
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/moveBullet.cs
-          projectPath: Assets/Scripts/moveBullet.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/moveBullet.cs.meta
-        label: moveBullet.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/moveBullet.cs.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/moveBullet.cs.meta
-          projectPath: Assets/Scripts/moveBullet.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/PlayerAim.cs
-        label: PlayerAim.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/PlayerAim.cs
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerAim.cs
-          projectPath: Assets/Scripts/PlayerAim.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/PlayerAim.cs.meta
-        label: PlayerAim.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/PlayerAim.cs.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerAim.cs.meta
-          projectPath: Assets/Scripts/PlayerAim.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/PlayerMovement.cs
-        label: PlayerMovement.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/PlayerMovement.cs
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerMovement.cs
-          projectPath: Assets/Scripts/PlayerMovement.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/PlayerMovement.cs.meta
-        label: PlayerMovement.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/PlayerMovement.cs.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerMovement.cs.meta
-          projectPath: Assets/Scripts/PlayerMovement.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/PlayerProperties.cs
-        label: PlayerProperties.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/PlayerProperties.cs
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerProperties.cs
-          projectPath: Assets/Scripts/PlayerProperties.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/PlayerProperties.cs.meta
-        label: PlayerProperties.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/PlayerProperties.cs.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerProperties.cs.meta
-          projectPath: Assets/Scripts/PlayerProperties.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/PlayerShootProjectiles.cs
-        label: PlayerShootProjectiles.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/PlayerShootProjectiles.cs
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerShootProjectiles.cs
-          projectPath: Assets/Scripts/PlayerShootProjectiles.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/PlayerShootProjectiles.cs.meta
-        label: PlayerShootProjectiles.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/PlayerShootProjectiles.cs.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerShootProjectiles.cs.meta
-          projectPath: Assets/Scripts/PlayerShootProjectiles.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/ShootBehaviour.cs
-        label: ShootBehaviour.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/ShootBehaviour.cs
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/ShootBehaviour.cs
-          projectPath: Assets/Scripts/ShootBehaviour.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/ShootBehaviour.cs.meta
-        label: ShootBehaviour.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/ShootBehaviour.cs.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/ShootBehaviour.cs.meta
-          projectPath: Assets/Scripts/ShootBehaviour.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sprites.meta
-        label: Sprites.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sprites.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites.meta
-          projectPath: Assets/Sprites.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sprites
-        label: Sprites
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Sprites/Animations.meta
-        label: Animations.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sprites/Animations.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations.meta
-          projectPath: Assets/Sprites/Animations.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sprites/Animations
-        label: Animations
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Sprites/Animations/idle.anim
-        label: idle.anim
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sprites/Animations/idle.anim
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/idle.anim
-          projectPath: Assets/Sprites/Animations/idle.anim
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sprites/Animations/idle.anim.meta
-        label: idle.anim.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sprites/Animations/idle.anim.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/idle.anim.meta
-          projectPath: Assets/Sprites/Animations/idle.anim.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sprites/Animations/jumping.anim
-        label: jumping.anim
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sprites/Animations/jumping.anim
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/jumping.anim
-          projectPath: Assets/Sprites/Animations/jumping.anim
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sprites/Animations/jumping.anim.meta
-        label: jumping.anim.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sprites/Animations/jumping.anim.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/jumping.anim.meta
-          projectPath: Assets/Sprites/Animations/jumping.anim.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sprites/Animations/Player.controller
-        label: Player.controller
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sprites/Animations/Player.controller
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/Player.controller
-          projectPath: Assets/Sprites/Animations/Player.controller
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sprites/Animations/Player.controller.meta
-        label: Player.controller.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sprites/Animations/Player.controller.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/Player.controller.meta
-          projectPath: Assets/Sprites/Animations/Player.controller.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sprites/Animations/running_forward.anim
-        label: running_forward.anim
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sprites/Animations/running_forward.anim
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/running_forward.anim
-          projectPath: Assets/Sprites/Animations/running_forward.anim
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sprites/Animations/running_forward.anim.meta
-        label: running_forward.anim.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sprites/Animations/running_forward.anim.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/running_forward.anim.meta
-          projectPath: Assets/Sprites/Animations/running_forward.anim.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sprites/R.png
-        label: R.png
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sprites/R.png
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/R.png
-          projectPath: Assets/Sprites/R.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sprites/R.png.meta
-        label: R.png.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sprites/R.png.meta
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/R.png.meta
-          projectPath: Assets/Sprites/R.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Packages
-        label: Packages
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Packages/manifest.json
-        label: manifest.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages/manifest.json
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Packages/manifest.json
-          projectPath: Packages/manifest.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Packages/packages-lock.json
-        label: packages-lock.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages/packages-lock.json
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Packages/packages-lock.json
-          projectPath: Packages/packages-lock.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings/AudioManager.asset
-        label: AudioManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/AudioManager.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/AudioManager.asset
-          projectPath: ProjectSettings/AudioManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/boot.config
-        label: boot.config
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/boot.config
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/boot.config
-          projectPath: ProjectSettings/boot.config
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/BurstAotSettings_StandaloneOSX.json
-        label: BurstAotSettings_StandaloneOSX.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/BurstAotSettings_StandaloneOSX.json
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/BurstAotSettings_StandaloneOSX.json
-          projectPath: ProjectSettings/BurstAotSettings_StandaloneOSX.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/BurstAotSettings_WebGL.json
-        label: BurstAotSettings_WebGL.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/BurstAotSettings_WebGL.json
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/BurstAotSettings_WebGL.json
-          projectPath: ProjectSettings/BurstAotSettings_WebGL.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/ClusterInputManager.asset
-        label: ClusterInputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/ClusterInputManager.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/ClusterInputManager.asset
-          projectPath: ProjectSettings/ClusterInputManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/CommonBurstAotSettings.json
-        label: CommonBurstAotSettings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/CommonBurstAotSettings.json
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/CommonBurstAotSettings.json
-          projectPath: ProjectSettings/CommonBurstAotSettings.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/DynamicsManager.asset
-        label: DynamicsManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/DynamicsManager.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/DynamicsManager.asset
-          projectPath: ProjectSettings/DynamicsManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/EditorBuildSettings.asset
-        label: EditorBuildSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/EditorBuildSettings.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/EditorBuildSettings.asset
-          projectPath: ProjectSettings/EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/EditorSettings.asset
-        label: EditorSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/EditorSettings.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/EditorSettings.asset
-          projectPath: ProjectSettings/EditorSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/GraphicsSettings.asset
-        label: GraphicsSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/GraphicsSettings.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/GraphicsSettings.asset
-          projectPath: ProjectSettings/GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/InputManager.asset
-        label: InputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/InputManager.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/InputManager.asset
-          projectPath: ProjectSettings/InputManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/MemorySettings.asset
-        label: MemorySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/MemorySettings.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/MemorySettings.asset
-          projectPath: ProjectSettings/MemorySettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/NavMeshAreas.asset
-        label: NavMeshAreas.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/NavMeshAreas.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/NavMeshAreas.asset
-          projectPath: ProjectSettings/NavMeshAreas.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/NetworkManager.asset
-        label: NetworkManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/NetworkManager.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/NetworkManager.asset
-          projectPath: ProjectSettings/NetworkManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/PackageManagerSettings.asset
-        label: PackageManagerSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/PackageManagerSettings.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/PackageManagerSettings.asset
-          projectPath: ProjectSettings/PackageManagerSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/Physics2DSettings.asset
-        label: Physics2DSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/Physics2DSettings.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/Physics2DSettings.asset
-          projectPath: ProjectSettings/Physics2DSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/PresetManager.asset
-        label: PresetManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/PresetManager.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/PresetManager.asset
-          projectPath: ProjectSettings/PresetManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/ProjectSettings.asset
-        label: ProjectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/ProjectSettings.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/ProjectSettings.asset
-          projectPath: ProjectSettings/ProjectSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/ProjectVersion.txt
-        label: ProjectVersion.txt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/ProjectVersion.txt
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/ProjectVersion.txt
-          projectPath: ProjectSettings/ProjectVersion.txt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/QualitySettings.asset
-        label: QualitySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/QualitySettings.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/QualitySettings.asset
-          projectPath: ProjectSettings/QualitySettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/SceneTemplateSettings.json
-        label: SceneTemplateSettings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/SceneTemplateSettings.json
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/SceneTemplateSettings.json
-          projectPath: ProjectSettings/SceneTemplateSettings.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/TagManager.asset
-        label: TagManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/TagManager.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/TagManager.asset
-          projectPath: ProjectSettings/TagManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/TimelineSettings.asset
-        label: TimelineSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/TimelineSettings.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/TimelineSettings.asset
-          projectPath: ProjectSettings/TimelineSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/TimeManager.asset
-        label: TimeManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/TimeManager.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/TimeManager.asset
-          projectPath: ProjectSettings/TimeManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/UnityConnectSettings.asset
-        label: UnityConnectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/UnityConnectSettings.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/UnityConnectSettings.asset
-          projectPath: ProjectSettings/UnityConnectSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/VersionControlSettings.asset
-        label: VersionControlSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/VersionControlSettings.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/VersionControlSettings.asset
-          projectPath: ProjectSettings/VersionControlSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/VFXManager.asset
-        label: VFXManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/VFXManager.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/VFXManager.asset
-          projectPath: ProjectSettings/VFXManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings/XRSettings.asset
-        label: XRSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings/XRSettings.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/XRSettings.asset
-          projectPath: ProjectSettings/XRSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings/EditorUserSettings.asset
-        label: EditorUserSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings/EditorUserSettings.asset
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/UserSettings/EditorUserSettings.asset
-          projectPath: UserSettings/EditorUserSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings/Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings/Layouts/default-2021.dwlt
-        label: default-2021.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings/Layouts/default-2021.dwlt
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/UserSettings/Layouts/default-2021.dwlt
-          projectPath: UserSettings/Layouts/default-2021.dwlt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings/Search.index
-        label: Search.index
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings/Search.index
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/UserSettings/Search.index
-          projectPath: UserSettings/Search.index
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings/Search.settings
-        label: Search.settings
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings/Search.settings
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/UserSettings/Search.settings
-          projectPath: UserSettings/Search.settings
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       selectedNode:
         path: 
         label: 
@@ -2970,455 +540,467 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries:
-    - path: .vscode/settings.json
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/.vscode/settings.json
-      projectPath: .vscode/settings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: .vsconfig
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/.vsconfig
-      projectPath: .vsconfig
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Levels.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Levels.meta
-      projectPath: Assets/Levels.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Levels/Level 1.unity
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Levels/Level
-        1.unity
-      projectPath: Assets/Levels/Level 1.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Levels/Level 1.unity.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Levels/Level
-        1.unity.meta
-      projectPath: Assets/Levels/Level 1.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts.meta
-      projectPath: Assets/Scripts.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/Bullet.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/Bullet.cs
-      projectPath: Assets/Scripts/Bullet.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/Bullet.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/Bullet.cs.meta
-      projectPath: Assets/Scripts/Bullet.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/CameraMovement.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/CameraMovement.cs
-      projectPath: Assets/Scripts/CameraMovement.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/CameraMovement.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/CameraMovement.cs.meta
-      projectPath: Assets/Scripts/CameraMovement.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/DroneMovement.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/DroneMovement.cs
-      projectPath: Assets/Scripts/DroneMovement.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/DroneMovement.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/DroneMovement.cs.meta
-      projectPath: Assets/Scripts/DroneMovement.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/GunMovement.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/GunMovement.cs
-      projectPath: Assets/Scripts/GunMovement.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/GunMovement.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/GunMovement.cs.meta
-      projectPath: Assets/Scripts/GunMovement.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/moveBullet.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/moveBullet.cs
-      projectPath: Assets/Scripts/moveBullet.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/moveBullet.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/moveBullet.cs.meta
-      projectPath: Assets/Scripts/moveBullet.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerAim.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerAim.cs
-      projectPath: Assets/Scripts/PlayerAim.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerAim.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerAim.cs.meta
-      projectPath: Assets/Scripts/PlayerAim.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerMovement.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerMovement.cs
-      projectPath: Assets/Scripts/PlayerMovement.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerMovement.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerMovement.cs.meta
-      projectPath: Assets/Scripts/PlayerMovement.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerProperties.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerProperties.cs
-      projectPath: Assets/Scripts/PlayerProperties.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerProperties.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerProperties.cs.meta
-      projectPath: Assets/Scripts/PlayerProperties.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerShootProjectiles.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerShootProjectiles.cs
-      projectPath: Assets/Scripts/PlayerShootProjectiles.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerShootProjectiles.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerShootProjectiles.cs.meta
-      projectPath: Assets/Scripts/PlayerShootProjectiles.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/ShootBehaviour.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/ShootBehaviour.cs
-      projectPath: Assets/Scripts/ShootBehaviour.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/ShootBehaviour.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/ShootBehaviour.cs.meta
-      projectPath: Assets/Scripts/ShootBehaviour.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites.meta
-      projectPath: Assets/Sprites.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations.meta
-      projectPath: Assets/Sprites/Animations.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/idle.anim
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/idle.anim
-      projectPath: Assets/Sprites/Animations/idle.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/idle.anim.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/idle.anim.meta
-      projectPath: Assets/Sprites/Animations/idle.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/jumping.anim
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/jumping.anim
-      projectPath: Assets/Sprites/Animations/jumping.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/jumping.anim.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/jumping.anim.meta
-      projectPath: Assets/Sprites/Animations/jumping.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/Player.controller
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/Player.controller
-      projectPath: Assets/Sprites/Animations/Player.controller
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/Player.controller.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/Player.controller.meta
-      projectPath: Assets/Sprites/Animations/Player.controller.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/running_forward.anim
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/running_forward.anim
-      projectPath: Assets/Sprites/Animations/running_forward.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/running_forward.anim.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/running_forward.anim.meta
-      projectPath: Assets/Sprites/Animations/running_forward.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/R.png
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/R.png
-      projectPath: Assets/Sprites/R.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/R.png.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/R.png.meta
-      projectPath: Assets/Sprites/R.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages/manifest.json
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Packages/manifest.json
-      projectPath: Packages/manifest.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages/packages-lock.json
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Packages/packages-lock.json
-      projectPath: Packages/packages-lock.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/AudioManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/AudioManager.asset
-      projectPath: ProjectSettings/AudioManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/boot.config
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/boot.config
-      projectPath: ProjectSettings/boot.config
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/BurstAotSettings_StandaloneOSX.json
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/BurstAotSettings_StandaloneOSX.json
-      projectPath: ProjectSettings/BurstAotSettings_StandaloneOSX.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/BurstAotSettings_WebGL.json
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/BurstAotSettings_WebGL.json
-      projectPath: ProjectSettings/BurstAotSettings_WebGL.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/ClusterInputManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/ClusterInputManager.asset
-      projectPath: ProjectSettings/ClusterInputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/CommonBurstAotSettings.json
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/CommonBurstAotSettings.json
-      projectPath: ProjectSettings/CommonBurstAotSettings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/DynamicsManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/DynamicsManager.asset
-      projectPath: ProjectSettings/DynamicsManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/EditorBuildSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/EditorBuildSettings.asset
-      projectPath: ProjectSettings/EditorBuildSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/EditorSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/EditorSettings.asset
-      projectPath: ProjectSettings/EditorSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/GraphicsSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/GraphicsSettings.asset
-      projectPath: ProjectSettings/GraphicsSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/InputManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/InputManager.asset
-      projectPath: ProjectSettings/InputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/MemorySettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/MemorySettings.asset
-      projectPath: ProjectSettings/MemorySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/NavMeshAreas.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/NavMeshAreas.asset
-      projectPath: ProjectSettings/NavMeshAreas.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/NetworkManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/NetworkManager.asset
-      projectPath: ProjectSettings/NetworkManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/PackageManagerSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/PackageManagerSettings.asset
-      projectPath: ProjectSettings/PackageManagerSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/Physics2DSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/Physics2DSettings.asset
-      projectPath: ProjectSettings/Physics2DSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/PresetManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/PresetManager.asset
-      projectPath: ProjectSettings/PresetManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/ProjectSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/ProjectSettings.asset
-      projectPath: ProjectSettings/ProjectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/ProjectVersion.txt
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/ProjectVersion.txt
-      projectPath: ProjectSettings/ProjectVersion.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/QualitySettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/QualitySettings.asset
-      projectPath: ProjectSettings/QualitySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/SceneTemplateSettings.json
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/SceneTemplateSettings.json
-      projectPath: ProjectSettings/SceneTemplateSettings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/TagManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/TagManager.asset
-      projectPath: ProjectSettings/TagManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/TimelineSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/TimelineSettings.asset
-      projectPath: ProjectSettings/TimelineSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/TimeManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/TimeManager.asset
-      projectPath: ProjectSettings/TimeManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/UnityConnectSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/UnityConnectSettings.asset
-      projectPath: ProjectSettings/UnityConnectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/VersionControlSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/VersionControlSettings.asset
-      projectPath: ProjectSettings/VersionControlSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/VFXManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/VFXManager.asset
-      projectPath: ProjectSettings/VFXManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/XRSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/XRSettings.asset
-      projectPath: ProjectSettings/XRSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings/EditorUserSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/UserSettings/EditorUserSettings.asset
-      projectPath: UserSettings/EditorUserSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings/Layouts/default-2021.dwlt
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/UserSettings/Layouts/default-2021.dwlt
-      projectPath: UserSettings/Layouts/default-2021.dwlt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings/Search.index
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/UserSettings/Search.index
-      projectPath: UserSettings/Search.index
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings/Search.settings
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/UserSettings/Search.settings
-      projectPath: UserSettings/Search.settings
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    changedFilesText: 72 changed files
+    gitStatusEntries: []
+    changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-12-27T13:52:35.948+01:00
+      updatedTimeString: 2022-12-27T14:38:11.291+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-12-27T14:34:49.247+01:00
+      updatedTimeString: 2022-12-27T14:41:10.325+01:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2022-12-27T13:52:36.081+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: e4d7d88664d415017aca7902209e9ca2885f88c8
+      mergeA: 
+      mergeB: 
+      authorName: Cedric Fauth
+      authorEmail: cedricfauth@yahoo.de
+      commitEmail: cedricfauth@yahoo.de
+      commitName: Cedric Fauth
+      summary: Added all files so far
+      description: 
+      timeString: 2022-12-27T14:41:09.000+01:00
+      commitTimeString: 2022-12-27T14:41:09.000+01:00
+      changes:
+      - path: .vscode/settings.json
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/.vscode/settings.json
+        projectPath: .vscode/settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .vsconfig
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/.vsconfig
+        projectPath: .vsconfig
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Levels.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Levels.meta
+        projectPath: Assets/Levels.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Levels/Level 1.unity
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Levels/Level
+          1.unity
+        projectPath: Assets/Levels/Level 1.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Levels/Level 1.unity.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Levels/Level
+          1.unity.meta
+        projectPath: Assets/Levels/Level 1.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts.meta
+        projectPath: Assets/Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/Bullet.cs
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/Bullet.cs
+        projectPath: Assets/Scripts/Bullet.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/Bullet.cs.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/Bullet.cs.meta
+        projectPath: Assets/Scripts/Bullet.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/CameraMovement.cs
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/CameraMovement.cs
+        projectPath: Assets/Scripts/CameraMovement.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/CameraMovement.cs.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/CameraMovement.cs.meta
+        projectPath: Assets/Scripts/CameraMovement.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/DroneMovement.cs
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/DroneMovement.cs
+        projectPath: Assets/Scripts/DroneMovement.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/DroneMovement.cs.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/DroneMovement.cs.meta
+        projectPath: Assets/Scripts/DroneMovement.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/GunMovement.cs
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/GunMovement.cs
+        projectPath: Assets/Scripts/GunMovement.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/GunMovement.cs.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/GunMovement.cs.meta
+        projectPath: Assets/Scripts/GunMovement.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/PlayerAim.cs
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerAim.cs
+        projectPath: Assets/Scripts/PlayerAim.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/PlayerAim.cs.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerAim.cs.meta
+        projectPath: Assets/Scripts/PlayerAim.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/PlayerMovement.cs
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerMovement.cs
+        projectPath: Assets/Scripts/PlayerMovement.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/PlayerMovement.cs.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerMovement.cs.meta
+        projectPath: Assets/Scripts/PlayerMovement.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/PlayerProperties.cs
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerProperties.cs
+        projectPath: Assets/Scripts/PlayerProperties.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/PlayerProperties.cs.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerProperties.cs.meta
+        projectPath: Assets/Scripts/PlayerProperties.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/PlayerShootProjectiles.cs
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerShootProjectiles.cs
+        projectPath: Assets/Scripts/PlayerShootProjectiles.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/PlayerShootProjectiles.cs.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerShootProjectiles.cs.meta
+        projectPath: Assets/Scripts/PlayerShootProjectiles.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/ShootBehaviour.cs
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/ShootBehaviour.cs
+        projectPath: Assets/Scripts/ShootBehaviour.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/ShootBehaviour.cs.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/ShootBehaviour.cs.meta
+        projectPath: Assets/Scripts/ShootBehaviour.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/moveBullet.cs
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/moveBullet.cs
+        projectPath: Assets/Scripts/moveBullet.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/moveBullet.cs.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/moveBullet.cs.meta
+        projectPath: Assets/Scripts/moveBullet.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sprites.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites.meta
+        projectPath: Assets/Sprites.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sprites/Animations.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations.meta
+        projectPath: Assets/Sprites/Animations.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sprites/Animations/Player.controller
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/Player.controller
+        projectPath: Assets/Sprites/Animations/Player.controller
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sprites/Animations/Player.controller.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/Player.controller.meta
+        projectPath: Assets/Sprites/Animations/Player.controller.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sprites/Animations/idle.anim
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/idle.anim
+        projectPath: Assets/Sprites/Animations/idle.anim
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sprites/Animations/idle.anim.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/idle.anim.meta
+        projectPath: Assets/Sprites/Animations/idle.anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sprites/Animations/jumping.anim
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/jumping.anim
+        projectPath: Assets/Sprites/Animations/jumping.anim
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sprites/Animations/jumping.anim.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/jumping.anim.meta
+        projectPath: Assets/Sprites/Animations/jumping.anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sprites/Animations/running_forward.anim
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/running_forward.anim
+        projectPath: Assets/Sprites/Animations/running_forward.anim
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sprites/Animations/running_forward.anim.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/running_forward.anim.meta
+        projectPath: Assets/Sprites/Animations/running_forward.anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sprites/R.png
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/R.png
+        projectPath: Assets/Sprites/R.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sprites/R.png.meta
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/R.png.meta
+        projectPath: Assets/Sprites/R.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages/manifest.json
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Packages/manifest.json
+        projectPath: Packages/manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages/packages-lock.json
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Packages/packages-lock.json
+        projectPath: Packages/packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/AudioManager.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/AudioManager.asset
+        projectPath: ProjectSettings/AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/BurstAotSettings_StandaloneOSX.json
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/BurstAotSettings_StandaloneOSX.json
+        projectPath: ProjectSettings/BurstAotSettings_StandaloneOSX.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/BurstAotSettings_WebGL.json
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/BurstAotSettings_WebGL.json
+        projectPath: ProjectSettings/BurstAotSettings_WebGL.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/ClusterInputManager.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/ClusterInputManager.asset
+        projectPath: ProjectSettings/ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/CommonBurstAotSettings.json
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/CommonBurstAotSettings.json
+        projectPath: ProjectSettings/CommonBurstAotSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/DynamicsManager.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/DynamicsManager.asset
+        projectPath: ProjectSettings/DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/EditorBuildSettings.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/EditorBuildSettings.asset
+        projectPath: ProjectSettings/EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/EditorSettings.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/EditorSettings.asset
+        projectPath: ProjectSettings/EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/GraphicsSettings.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/GraphicsSettings.asset
+        projectPath: ProjectSettings/GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/InputManager.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/InputManager.asset
+        projectPath: ProjectSettings/InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/MemorySettings.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/MemorySettings.asset
+        projectPath: ProjectSettings/MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/NavMeshAreas.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/NavMeshAreas.asset
+        projectPath: ProjectSettings/NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/NetworkManager.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/NetworkManager.asset
+        projectPath: ProjectSettings/NetworkManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/PackageManagerSettings.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/PackageManagerSettings.asset
+        projectPath: ProjectSettings/PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/Physics2DSettings.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/Physics2DSettings.asset
+        projectPath: ProjectSettings/Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/PresetManager.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/PresetManager.asset
+        projectPath: ProjectSettings/PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/ProjectSettings.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/ProjectSettings.asset
+        projectPath: ProjectSettings/ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/ProjectVersion.txt
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/ProjectVersion.txt
+        projectPath: ProjectSettings/ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/QualitySettings.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/QualitySettings.asset
+        projectPath: ProjectSettings/QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/SceneTemplateSettings.json
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/SceneTemplateSettings.json
+        projectPath: ProjectSettings/SceneTemplateSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/TagManager.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/TagManager.asset
+        projectPath: ProjectSettings/TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/TimeManager.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/TimeManager.asset
+        projectPath: ProjectSettings/TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/TimelineSettings.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/TimelineSettings.asset
+        projectPath: ProjectSettings/TimelineSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/UnityConnectSettings.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/UnityConnectSettings.asset
+        projectPath: ProjectSettings/UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/VFXManager.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/VFXManager.asset
+        projectPath: ProjectSettings/VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/VersionControlSettings.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/VersionControlSettings.asset
+        projectPath: ProjectSettings/VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/XRSettings.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/XRSettings.asset
+        projectPath: ProjectSettings/XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/boot.config
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/boot.config
+        projectPath: ProjectSettings/boot.config
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/EditorUserSettings.asset
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/UserSettings/EditorUserSettings.asset
+        projectPath: UserSettings/EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Layouts/default-2021.dwlt
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/UserSettings/Layouts/default-2021.dwlt
+        projectPath: UserSettings/Layouts/default-2021.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Search.index
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/UserSettings/Search.index
+        projectPath: UserSettings/Search.index
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Search.settings
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/UserSettings/Search.settings
+        projectPath: UserSettings/Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
     - commitID: fd75ab977aac0eb30e86bcd6774ffae4890fd5b8
       mergeA: 
       mergeB: 
@@ -3432,33 +1014,479 @@ MonoBehaviour:
       commitTimeString: 2022-12-27T13:52:35.000+01:00
       changes:
       - path: .gitattributes
-        fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/.gitattributes
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/.gitattributes
         projectPath: .gitattributes
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .gitignore
-        fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/.gitignore
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/.gitignore
         projectPath: .gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets/.gitignore
-        fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/.gitignore
+        fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/.gitignore
         projectPath: Assets/.gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2022-12-27T13:52:36.010+01:00
+      updatedTimeString: 2022-12-27T14:41:10.324+01:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2022-12-27T13:52:35.767+01:00
+      updatedTimeString: 2022-12-27T14:41:10.392+01:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: e4d7d88664d415017aca7902209e9ca2885f88c8
+        mergeA: 
+        mergeB: 
+        authorName: Cedric Fauth
+        authorEmail: cedricfauth@yahoo.de
+        commitEmail: cedricfauth@yahoo.de
+        commitName: Cedric Fauth
+        summary: Added all files so far
+        description: 
+        timeString: 2022-12-27T14:41:09.000+01:00
+        commitTimeString: 2022-12-27T14:41:09.000+01:00
+        changes:
+        - path: .vscode/settings.json
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/.vscode/settings.json
+          projectPath: .vscode/settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .vsconfig
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/.vsconfig
+          projectPath: .vsconfig
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Levels.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Levels.meta
+          projectPath: Assets/Levels.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Levels/Level 1.unity
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Levels/Level
+            1.unity
+          projectPath: Assets/Levels/Level 1.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Levels/Level 1.unity.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Levels/Level
+            1.unity.meta
+          projectPath: Assets/Levels/Level 1.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts.meta
+          projectPath: Assets/Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/Bullet.cs
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/Bullet.cs
+          projectPath: Assets/Scripts/Bullet.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/Bullet.cs.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/Bullet.cs.meta
+          projectPath: Assets/Scripts/Bullet.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/CameraMovement.cs
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/CameraMovement.cs
+          projectPath: Assets/Scripts/CameraMovement.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/CameraMovement.cs.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/CameraMovement.cs.meta
+          projectPath: Assets/Scripts/CameraMovement.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/DroneMovement.cs
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/DroneMovement.cs
+          projectPath: Assets/Scripts/DroneMovement.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/DroneMovement.cs.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/DroneMovement.cs.meta
+          projectPath: Assets/Scripts/DroneMovement.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/GunMovement.cs
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/GunMovement.cs
+          projectPath: Assets/Scripts/GunMovement.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/GunMovement.cs.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/GunMovement.cs.meta
+          projectPath: Assets/Scripts/GunMovement.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/PlayerAim.cs
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerAim.cs
+          projectPath: Assets/Scripts/PlayerAim.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/PlayerAim.cs.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerAim.cs.meta
+          projectPath: Assets/Scripts/PlayerAim.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/PlayerMovement.cs
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerMovement.cs
+          projectPath: Assets/Scripts/PlayerMovement.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/PlayerMovement.cs.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerMovement.cs.meta
+          projectPath: Assets/Scripts/PlayerMovement.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/PlayerProperties.cs
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerProperties.cs
+          projectPath: Assets/Scripts/PlayerProperties.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/PlayerProperties.cs.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerProperties.cs.meta
+          projectPath: Assets/Scripts/PlayerProperties.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/PlayerShootProjectiles.cs
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerShootProjectiles.cs
+          projectPath: Assets/Scripts/PlayerShootProjectiles.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/PlayerShootProjectiles.cs.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/PlayerShootProjectiles.cs.meta
+          projectPath: Assets/Scripts/PlayerShootProjectiles.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/ShootBehaviour.cs
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/ShootBehaviour.cs
+          projectPath: Assets/Scripts/ShootBehaviour.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/ShootBehaviour.cs.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/ShootBehaviour.cs.meta
+          projectPath: Assets/Scripts/ShootBehaviour.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/moveBullet.cs
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/moveBullet.cs
+          projectPath: Assets/Scripts/moveBullet.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/moveBullet.cs.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Scripts/moveBullet.cs.meta
+          projectPath: Assets/Scripts/moveBullet.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sprites.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites.meta
+          projectPath: Assets/Sprites.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sprites/Animations.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations.meta
+          projectPath: Assets/Sprites/Animations.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sprites/Animations/Player.controller
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/Player.controller
+          projectPath: Assets/Sprites/Animations/Player.controller
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sprites/Animations/Player.controller.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/Player.controller.meta
+          projectPath: Assets/Sprites/Animations/Player.controller.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sprites/Animations/idle.anim
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/idle.anim
+          projectPath: Assets/Sprites/Animations/idle.anim
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sprites/Animations/idle.anim.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/idle.anim.meta
+          projectPath: Assets/Sprites/Animations/idle.anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sprites/Animations/jumping.anim
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/jumping.anim
+          projectPath: Assets/Sprites/Animations/jumping.anim
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sprites/Animations/jumping.anim.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/jumping.anim.meta
+          projectPath: Assets/Sprites/Animations/jumping.anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sprites/Animations/running_forward.anim
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/running_forward.anim
+          projectPath: Assets/Sprites/Animations/running_forward.anim
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sprites/Animations/running_forward.anim.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/Animations/running_forward.anim.meta
+          projectPath: Assets/Sprites/Animations/running_forward.anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sprites/R.png
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/R.png
+          projectPath: Assets/Sprites/R.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sprites/R.png.meta
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/Sprites/R.png.meta
+          projectPath: Assets/Sprites/R.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages/manifest.json
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Packages/manifest.json
+          projectPath: Packages/manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages/packages-lock.json
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Packages/packages-lock.json
+          projectPath: Packages/packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/AudioManager.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/AudioManager.asset
+          projectPath: ProjectSettings/AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/BurstAotSettings_StandaloneOSX.json
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/BurstAotSettings_StandaloneOSX.json
+          projectPath: ProjectSettings/BurstAotSettings_StandaloneOSX.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/BurstAotSettings_WebGL.json
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/BurstAotSettings_WebGL.json
+          projectPath: ProjectSettings/BurstAotSettings_WebGL.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/ClusterInputManager.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/ClusterInputManager.asset
+          projectPath: ProjectSettings/ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/CommonBurstAotSettings.json
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/CommonBurstAotSettings.json
+          projectPath: ProjectSettings/CommonBurstAotSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/DynamicsManager.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/DynamicsManager.asset
+          projectPath: ProjectSettings/DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/EditorBuildSettings.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/EditorBuildSettings.asset
+          projectPath: ProjectSettings/EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/EditorSettings.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/EditorSettings.asset
+          projectPath: ProjectSettings/EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/GraphicsSettings.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/GraphicsSettings.asset
+          projectPath: ProjectSettings/GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/InputManager.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/InputManager.asset
+          projectPath: ProjectSettings/InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/MemorySettings.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/MemorySettings.asset
+          projectPath: ProjectSettings/MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/NavMeshAreas.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/NavMeshAreas.asset
+          projectPath: ProjectSettings/NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/NetworkManager.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/NetworkManager.asset
+          projectPath: ProjectSettings/NetworkManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/PackageManagerSettings.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/PackageManagerSettings.asset
+          projectPath: ProjectSettings/PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/Physics2DSettings.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/Physics2DSettings.asset
+          projectPath: ProjectSettings/Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/PresetManager.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/PresetManager.asset
+          projectPath: ProjectSettings/PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/ProjectSettings.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/ProjectSettings.asset
+          projectPath: ProjectSettings/ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/ProjectVersion.txt
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/ProjectVersion.txt
+          projectPath: ProjectSettings/ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/QualitySettings.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/QualitySettings.asset
+          projectPath: ProjectSettings/QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/SceneTemplateSettings.json
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/SceneTemplateSettings.json
+          projectPath: ProjectSettings/SceneTemplateSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/TagManager.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/TagManager.asset
+          projectPath: ProjectSettings/TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/TimeManager.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/TimeManager.asset
+          projectPath: ProjectSettings/TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/TimelineSettings.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/TimelineSettings.asset
+          projectPath: ProjectSettings/TimelineSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/UnityConnectSettings.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/UnityConnectSettings.asset
+          projectPath: ProjectSettings/UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/VFXManager.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/VFXManager.asset
+          projectPath: ProjectSettings/VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/VersionControlSettings.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/VersionControlSettings.asset
+          projectPath: ProjectSettings/VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/XRSettings.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/XRSettings.asset
+          projectPath: ProjectSettings/XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/boot.config
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/ProjectSettings/boot.config
+          projectPath: ProjectSettings/boot.config
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/EditorUserSettings.asset
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/UserSettings/EditorUserSettings.asset
+          projectPath: UserSettings/EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/Layouts/default-2021.dwlt
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/UserSettings/Layouts/default-2021.dwlt
+          projectPath: UserSettings/Layouts/default-2021.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/Search.index
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/UserSettings/Search.index
+          projectPath: UserSettings/Search.index
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/Search.settings
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/UserSettings/Search.settings
+          projectPath: UserSettings/Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
       - commitID: fd75ab977aac0eb30e86bcd6774ffae4890fd5b8
         mergeA: 
         mergeB: 
@@ -3472,19 +1500,19 @@ MonoBehaviour:
         commitTimeString: 2022-12-27T13:52:35.000+01:00
         changes:
         - path: .gitattributes
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/.gitattributes
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/.gitattributes
           projectPath: .gitattributes
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .gitignore
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/.gitignore
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/.gitignore
           projectPath: .gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets/.gitignore
-          fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/.gitignore
+          fullPath: /Users/cedricfauth/Unity Projects/Contra 3.0/Assets/.gitignore
           projectPath: Assets/.gitignore
           originalPath: 
           indexStatus: 4
@@ -3551,7 +1579,7 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 0
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2022-12-27T13:52:35.948+01:00
+      updatedTimeString: 2022-12-27T14:38:11.291+01:00
       cacheType: 1
     newRepositoryRemoteUrl: 
     repositoryRemoteName: origin
@@ -3564,7 +1592,7 @@ MonoBehaviour:
       newGitEmail: cedricfauth@yahoo.de
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2022-12-27T13:52:26.759+01:00
+        updatedTimeString: 2022-12-27T14:41:30.840+01:00
         cacheType: 8
     webTimeout: 100000
     gitTimeout: 5000
@@ -3593,426 +1621,16 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 00:54
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2022-12-27T13:52:35.948+01:00
+      updatedTimeString: 2022-12-27T14:38:11.291+01:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 2022-12-27T13:52:36.081+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-12-27T13:52:36.091+01:00
+      updatedTimeString: 2022-12-27T14:41:10.325+01:00
       cacheType: 6
     lockedFiles: []
-    gitStatusEntries:
-    - path: .vscode/settings.json
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/.vscode/settings.json
-      projectPath: .vscode/settings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: .vsconfig
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/.vsconfig
-      projectPath: .vsconfig
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Levels.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Levels.meta
-      projectPath: Assets/Levels.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Levels/Level 1.unity
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Levels/Level
-        1.unity
-      projectPath: Assets/Levels/Level 1.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Levels/Level 1.unity.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Levels/Level
-        1.unity.meta
-      projectPath: Assets/Levels/Level 1.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts.meta
-      projectPath: Assets/Scripts.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/Bullet.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/Bullet.cs
-      projectPath: Assets/Scripts/Bullet.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/Bullet.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/Bullet.cs.meta
-      projectPath: Assets/Scripts/Bullet.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/CameraMovement.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/CameraMovement.cs
-      projectPath: Assets/Scripts/CameraMovement.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/CameraMovement.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/CameraMovement.cs.meta
-      projectPath: Assets/Scripts/CameraMovement.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/DroneMovement.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/DroneMovement.cs
-      projectPath: Assets/Scripts/DroneMovement.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/DroneMovement.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/DroneMovement.cs.meta
-      projectPath: Assets/Scripts/DroneMovement.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/GunMovement.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/GunMovement.cs
-      projectPath: Assets/Scripts/GunMovement.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/GunMovement.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/GunMovement.cs.meta
-      projectPath: Assets/Scripts/GunMovement.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/moveBullet.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/moveBullet.cs
-      projectPath: Assets/Scripts/moveBullet.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/moveBullet.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/moveBullet.cs.meta
-      projectPath: Assets/Scripts/moveBullet.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerAim.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerAim.cs
-      projectPath: Assets/Scripts/PlayerAim.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerAim.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerAim.cs.meta
-      projectPath: Assets/Scripts/PlayerAim.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerMovement.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerMovement.cs
-      projectPath: Assets/Scripts/PlayerMovement.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerMovement.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerMovement.cs.meta
-      projectPath: Assets/Scripts/PlayerMovement.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerProperties.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerProperties.cs
-      projectPath: Assets/Scripts/PlayerProperties.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerProperties.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerProperties.cs.meta
-      projectPath: Assets/Scripts/PlayerProperties.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerShootProjectiles.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerShootProjectiles.cs
-      projectPath: Assets/Scripts/PlayerShootProjectiles.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/PlayerShootProjectiles.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/PlayerShootProjectiles.cs.meta
-      projectPath: Assets/Scripts/PlayerShootProjectiles.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/ShootBehaviour.cs
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/ShootBehaviour.cs
-      projectPath: Assets/Scripts/ShootBehaviour.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/ShootBehaviour.cs.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Scripts/ShootBehaviour.cs.meta
-      projectPath: Assets/Scripts/ShootBehaviour.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites.meta
-      projectPath: Assets/Sprites.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations.meta
-      projectPath: Assets/Sprites/Animations.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/idle.anim
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/idle.anim
-      projectPath: Assets/Sprites/Animations/idle.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/idle.anim.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/idle.anim.meta
-      projectPath: Assets/Sprites/Animations/idle.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/jumping.anim
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/jumping.anim
-      projectPath: Assets/Sprites/Animations/jumping.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/jumping.anim.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/jumping.anim.meta
-      projectPath: Assets/Sprites/Animations/jumping.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/Player.controller
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/Player.controller
-      projectPath: Assets/Sprites/Animations/Player.controller
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/Player.controller.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/Player.controller.meta
-      projectPath: Assets/Sprites/Animations/Player.controller.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/running_forward.anim
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/running_forward.anim
-      projectPath: Assets/Sprites/Animations/running_forward.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/Animations/running_forward.anim.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/Animations/running_forward.anim.meta
-      projectPath: Assets/Sprites/Animations/running_forward.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/R.png
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/R.png
-      projectPath: Assets/Sprites/R.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sprites/R.png.meta
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Assets/Sprites/R.png.meta
-      projectPath: Assets/Sprites/R.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages/manifest.json
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Packages/manifest.json
-      projectPath: Packages/manifest.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages/packages-lock.json
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/Packages/packages-lock.json
-      projectPath: Packages/packages-lock.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/AudioManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/AudioManager.asset
-      projectPath: ProjectSettings/AudioManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/boot.config
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/boot.config
-      projectPath: ProjectSettings/boot.config
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/ClusterInputManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/ClusterInputManager.asset
-      projectPath: ProjectSettings/ClusterInputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/DynamicsManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/DynamicsManager.asset
-      projectPath: ProjectSettings/DynamicsManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/EditorBuildSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/EditorBuildSettings.asset
-      projectPath: ProjectSettings/EditorBuildSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/EditorSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/EditorSettings.asset
-      projectPath: ProjectSettings/EditorSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/GraphicsSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/GraphicsSettings.asset
-      projectPath: ProjectSettings/GraphicsSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/InputManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/InputManager.asset
-      projectPath: ProjectSettings/InputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/MemorySettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/MemorySettings.asset
-      projectPath: ProjectSettings/MemorySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/NavMeshAreas.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/NavMeshAreas.asset
-      projectPath: ProjectSettings/NavMeshAreas.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/NetworkManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/NetworkManager.asset
-      projectPath: ProjectSettings/NetworkManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/PackageManagerSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/PackageManagerSettings.asset
-      projectPath: ProjectSettings/PackageManagerSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/Physics2DSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/Physics2DSettings.asset
-      projectPath: ProjectSettings/Physics2DSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/PresetManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/PresetManager.asset
-      projectPath: ProjectSettings/PresetManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/ProjectSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/ProjectSettings.asset
-      projectPath: ProjectSettings/ProjectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/ProjectVersion.txt
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/ProjectVersion.txt
-      projectPath: ProjectSettings/ProjectVersion.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/QualitySettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/QualitySettings.asset
-      projectPath: ProjectSettings/QualitySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/SceneTemplateSettings.json
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/SceneTemplateSettings.json
-      projectPath: ProjectSettings/SceneTemplateSettings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/TagManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/TagManager.asset
-      projectPath: ProjectSettings/TagManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/TimelineSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/TimelineSettings.asset
-      projectPath: ProjectSettings/TimelineSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/TimeManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/TimeManager.asset
-      projectPath: ProjectSettings/TimeManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/UnityConnectSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/UnityConnectSettings.asset
-      projectPath: ProjectSettings/UnityConnectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/VersionControlSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/VersionControlSettings.asset
-      projectPath: ProjectSettings/VersionControlSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/VFXManager.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/VFXManager.asset
-      projectPath: ProjectSettings/VFXManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings/XRSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/ProjectSettings/XRSettings.asset
-      projectPath: ProjectSettings/XRSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings/EditorUserSettings.asset
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/UserSettings/EditorUserSettings.asset
-      projectPath: UserSettings/EditorUserSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings/Layouts/default-2021.dwlt
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/UserSettings/Layouts/default-2021.dwlt
-      projectPath: UserSettings/Layouts/default-2021.dwlt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings/Search.settings
-      fullPath: /Users/cedricfauth/Unity Projects/JumpAndRun/UserSettings/Search.settings
-      projectPath: UserSettings/Search.settings
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+    gitStatusEntries: []
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -4028,7 +1646,7 @@ MonoBehaviour:
   currentRemoteUrl: No remote configured
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 0
   currentBranchContent:
     m_Text: main
@@ -4039,13 +1657,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Add a remote in the Settings tab
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-12-27T13:52:35.948+01:00
+    updatedTimeString: 2022-12-27T14:38:11.291+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-12-27T13:52:35.767+01:00
+    updatedTimeString: 2022-12-27T14:41:10.392+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-12-27T14:34:49.247+01:00
+    updatedTimeString: 2022-12-27T14:41:10.325+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -4065,38 +1683,10 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 1
+  appManagerProgressValue: 0.875
   appManagerProgressMessage: 
   primaryConnectionUsername: 
 --- !u!114 &14
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 455, y: 354}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Asset Store
-    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 271.5
-    y: 83
-    width: 824
-    height: 330
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
---- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4127,7 +1717,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID: 21166
---- !u!114 &16
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4191,7 +1781,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4232,22 +1822,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/cedricfauth/Unity Projects/JumpAndRun
+  m_LastProjectPath: /Users/cedricfauth/Unity Projects/Contra 3.0
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 24}
-    m_SelectedIDs: 86550000
-    m_LastClickedID: 21894
-    m_ExpandedIDs: 000000007c55000000ca9a3b
+    m_SelectedIDs: 82550000
+    m_LastClickedID: 21890
+    m_ExpandedIDs: 000000008255000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4275,7 +1865,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c550000
+    m_ExpandedIDs: 0000000082550000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4302,7 +1892,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000a6670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -4331,7 +1921,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &18
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4347,7 +1937,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -4372,7 +1962,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4429,7 +2019,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &20
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4756,7 +2346,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &21
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4848,7 +2438,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &22
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
