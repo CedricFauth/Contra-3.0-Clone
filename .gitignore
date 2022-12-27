@@ -46,4 +46,5 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-/UserSettings
+/UserSettings/Layouts/
+.DS_Store
