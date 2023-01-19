@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerShootProjectiles : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] private Transform pfBullet;
+    [SerializeField] private Transform BulletPF;
     private float damage;
 
     private void Awake()
@@ -15,7 +15,7 @@ public class PlayerShootProjectiles : MonoBehaviour
 
     private void PlayerShootProjectiles_OnShoot(object sender, PlayerAim.OnShootEventArgs e)
     {
-        Transform bulletTransform = Instantiate(pfBullet, e.gunEndPointPosition, Quaternion.identity);
+        Transform bulletTransform = Instantiate(BulletPF, e.gunEndPointPosition, Quaternion.identity);
         Vector3 shootDir = (e.shootPosition - e.gunEndPointPosition).normalized;
         bulletTransform.GetComponent<Bullet>().Setup(shootDir, damage);
 

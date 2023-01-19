@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAim : MonoBehaviour
+public class EnemyAim : MonoBehaviour
 {
-    public event EventHandler<OnShootEventArgs> OnShoot;
+    public event EventHandler<OnShootEventArgs> EnemyShoot;
     public class OnShootEventArgs : EventArgs
     {
         public Vector3 gunEndPointPosition;
@@ -15,8 +15,10 @@ public class PlayerAim : MonoBehaviour
     private Transform gunEndTransform;
     private Transform aimTransform;
     private Transform body;
-    private float cooldown = 0.2f;
-    [SerializeField]private float cdReset;
+    private float cooldown = 1f;
+    [SerializeField] private float cdReset;
+    [SerializeField] private Transform EnemyShoulder;
+    [SerializeField] private Transform EnemyGunPointEnd;
 
     public float getCooldown()
     {
@@ -34,8 +36,8 @@ public class PlayerAim : MonoBehaviour
 
     void Awake()
     {
-        aimTransform = transform.Find("Shoulder");
-        gunEndTransform = aimTransform.Find("GunPointEnd");
+        aimTransform = EnemyShoulder;
+        gunEndTransform = EnemyGunPointEnd;
         body = GetComponent<Transform>();
     }
 
@@ -49,16 +51,15 @@ public class PlayerAim : MonoBehaviour
             cooldown -= Time.deltaTime;
         } else
         {
-            HandleShooting();
+            EnemyFire();
         }
         
     }
 
     private void HandleAiming()
     {
-        Vector3 mousePosition = GetMouseWorldPosition();
-
-        Vector3 aimDirection = (mousePosition - transform.position).normalized;
+        Vector3 playerPosition = (GameObject.FindGameObjectWithTag("Player").transform.position);
+        Vector3 aimDirection = (playerPosition - transform.position).normalized;
         float angle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
         aimTransform.eulerAngles = new Vector3(0, 0, angle);
         if (body.transform.localScale.x > 0)
@@ -72,18 +73,15 @@ public class PlayerAim : MonoBehaviour
 
     }
     
-    private void HandleShooting()
+    private void EnemyFire()
     {
-        if (Input.GetMouseButton(0))
+        Vector3 mousePosition = GetMouseWorldPosition();
+        EnemyShoot?.Invoke(this, new OnShootEventArgs
         {
-            Vector3 mousePosition = GetMouseWorldPosition();
-            OnShoot?.Invoke(this, new OnShootEventArgs
-            {
-                gunEndPointPosition = gunEndTransform.position,
-                shootPosition = mousePosition,
-            }) ;
-            cooldown = cdReset;
-        }
+            gunEndPointPosition = gunEndTransform.position,
+            shootPosition = mousePosition,
+        }) ;
+        cooldown = cdReset;
     }
 
     public static Vector3 GetMouseWorldPosition()

@@ -6,8 +6,10 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float jumpPower;
+    private GameObject shoulder;
     private Rigidbody2D body;
     private Transform player;
+    public Animator animator;
 
     bool isGrounded;
 
@@ -22,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         player = GetComponent<Transform>();
+        shoulder = GameObject.Find("Shoulder");
 
     }
 
@@ -35,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         body.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, body.velocity.y);
         Vector3 mouseLocation = GetMouseWorldPosition();
 
+        animator.SetFloat("Speed", Mathf.Abs(body.velocity[0]));
         if (player.position.x > mouseLocation.x)
         {
             player.localScale = left;
@@ -43,10 +47,18 @@ public class PlayerMovement : MonoBehaviour
         {
             player.localScale = right;
         }
-
+        if (isGrounded)
+        {
+            animator.SetBool("IsJumping", false);
+            shoulder.SetActive(true);
+            GetComponent<PlayerAim>().enabled = true;
+        }
         if (isGrounded && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Space)))
         {
             body.velocity = new Vector2(body.velocity.x, jumpPower);
+            animator.SetBool("IsJumping", true);
+            shoulder.SetActive(false);
+            GetComponent<PlayerAim>().enabled = false;
         }
         //Skript für OneWay Plattformen
         if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))

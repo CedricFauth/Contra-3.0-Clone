@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class EnemyBullet : MonoBehaviour
 {
     private float damage;
     private Vector3 shootDir;
@@ -25,7 +25,7 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        PlayerMovement player = collision.GetComponent<PlayerMovement>();
+        PlayerProperties player = collision.GetComponent<PlayerProperties>();
         if (player == null)
         {
             if (!collision.CompareTag("Bullet"))
@@ -33,6 +33,9 @@ public class Bullet : MonoBehaviour
                 Destroy(gameObject);
             }
             
+        } else if (player != null)
+        {
+            player.Damage();
         }
     }
     public static float GetAngleFromVectorFloat (Vector3 dir)

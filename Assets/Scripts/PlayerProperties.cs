@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerProperties : MonoBehaviour
 {
-    public int health = 100;
+    public int health = 3;
     private PlayerMovement movement;
     private PlayerShootProjectiles ammo;
     private PlayerAim weapon;
@@ -18,9 +18,19 @@ public class PlayerProperties : MonoBehaviour
     }
     void Start()
     {
-        movement.setSpeed(10f);
-        ammo.setDamage(10f);
-        weapon.setCooldown(0.6f);
+        movement.setSpeed(5f);
+        ammo.setDamage(1f);
+        weapon.setCooldown(0.2f);
+    }
+
+    public void Damage()
+    {
+        health -= 1;
+    }
+
+    public void DamageWithVal(int n)
+    {
+        health -= n;
     }
 
     // Update is called once per frame
